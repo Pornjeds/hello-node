@@ -1,5 +1,4 @@
--#!/bin/sh      
-ssh pornjeds@192.168.1.108 <<EOF        
+ssh pornjeds@192.168.1.108 -i ~/.ssh/id_rsa.pub <<EOF        
  cd ~/projects  
  git pull       
  npm install --production       
